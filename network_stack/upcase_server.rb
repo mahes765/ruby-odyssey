@@ -26,4 +26,3 @@ socket.ioctl(SIOCGIFINDEX, request)
 request[:index] # => 0x3
 request[:name] # => 'eth1'
 request[:reserved] # => 0x00000000
-
